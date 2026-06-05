@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oráculo Cósmico</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-shell">
+
+        <header class="topbar">
+            <div class="brand">
+                <div class="brand-mark">A</div>
+
+                <div>
+                    <h1>Arkham Research Library</h1>
+                    <p>Departamento de Estudos Comparados e Arquivos Raros</p>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="#">Acervo</a>
+                <a href="#">Pesquisa</a>
+                <a href="#" class="active">Oráculo</a>
+                <a href="#">Anotações</a>
+            </nav>
+
+            <div class="user-chip">
+                <span></span>
+                Guilherme
+            </div>
+        </header>
+
+        <section class="hero">
+            <p class="eyebrow">Consulta assistida</p>
+            <h2>Oráculo Cósmico</h2>
+            <p>
+                Uma mesa de pesquisa privada para explorar mitos, documentos
+                e memórias de investigação.
+            </p>
+
+            <button>Iniciar consulta</button>
+        </section>
+
+        <main class="workspace">
+
+            <aside class="sidebar">
+                <p class="section-label">Índice</p>
+
+                <button class="sidebar-item active">Consulta do Oráculo</button>
+                <button class="sidebar-item">Arquivos raros</button>
+                <button class="sidebar-item">Notas do pesquisador</button>
+                <button class="sidebar-item">Linha de investigação</button>
+
+                <div class="sanity-card">
+                    <p>Bem-estar cognitivo</p>
+                    <strong>100%</strong>
+
+                    <div class="sanity-bar">
+                        <span></span>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="chat-panel">
+
+                <div class="chat-header">
+                    <div>
+                        <h3>Sala de consulta</h3>
+                        <p>Sessão privada - entidade comunicadora não revelada</p>
+                    </div>
+
+                    <div class="status-pill">
+                        <span></span>
+                        estável
+                    </div>
+                </div>
+
+                <div id="chat-box" class="chat-box">
+
+                    <div class="message oracle">
+                        <strong>Oráculo</strong>
+                        <p>
+                            Bem-vindo, pesquisador. Qual fragmento do acervo deseja examinar?
+                        </p>
+                    </div>
+
+                    <div class="message user">
+                        <strong>Guilherme</strong>
+                        <p>
+                            Quero entender os registros sobre sonhos recorrentes em Arkham.
+                        </p>
+                    </div>
+
+                    <div class="message oracle">
+                        <strong>Oráculo</strong>
+                        <p>
+                            Há referências dispersas. Recomendo começar pelos diários da ala norte.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="chat-input">
+                    <input type="text" placeholder="Digite sua pergunta para o acervo...">
+                    <button>Invocar</button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
