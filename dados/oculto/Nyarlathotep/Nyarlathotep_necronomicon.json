@@ -1,0 +1,43 @@
+{
+"entidade": "Nyarlathotep",
+
+"niveis_reconhecimento": [
+
+
+{
+  "nivel": "Iniciado",
+
+  "titulo": "Portador da Primeira Chave",
+
+  "frases_ativacao": [
+    "eu ouvi o chamado",
+    "o veu se abriu",
+    "as estrelas sussurram"
+  ]
+},
+
+{
+  "nivel": "Arauto",
+
+  "titulo": "Arauto do Vazio",
+
+  "frases_ativacao": [
+    "eu sou um arauto do vazio",
+    "o caos rasteja entre as estrelas"
+  ]
+},
+
+{
+  "nivel": "Aliado",
+
+  "titulo": "Guardiao do Veu",
+
+  "frases_ativacao": [
+    "a mascara possui mil faces",
+    "o farao negro observa"
+  ]
+}
+
+
+]
+}
