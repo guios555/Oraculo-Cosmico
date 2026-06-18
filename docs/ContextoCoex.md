@@ -61,3 +61,31 @@ Fases sugeridas:
 - A interface atual e uma boa base inicial, mas ainda nao tem interatividade real.
 - O CSS atual usa `height: 100px` no `body`, o que deve ser corrigido para ocupar a tela inteira.
 
+## Progresso registrado em 2026-06-05
+
+- A interface web foi redesenhada com direcao visual de uma biblioteca/faculdade de Arkham moderna.
+- O estilo escolhido deve parecer academico, confiavel e institucional, sem horror explicito de primeira vista.
+- A navegacao superior usa: Acervo, Pesquisa, Oraculo e Anotacoes.
+- A tela atual tem hero institucional, menu lateral, painel de chat, status da sessao e indicador de bem-estar cognitivo.
+- O chat ja funciona com JavaScript: o usuario digita, envia com botao ou Enter, e o Oraculo responde com mensagens simuladas.
+- O sistema de sanidade ja esta interativo.
+- A sanidade comeca em 100 e decai aleatoriamente entre 1 e 10 por interacao.
+- As faixas implementadas sao:
+  - 100-75: stable
+  - 74-50: strange
+  - 49-25: anomalous
+  - 24-1: critical
+  - 0: apex
+- O estado `apex` representa o apice da interacao entre humano e ser exterior supremo.
+- O painel de chat deve ter rolagem interna para manter o indicador de sanidade visivel.
+- Guilherme fez os commits no GitHub por conta propria para praticar Git.
+
+## Proximo passo sugerido
+
+Refinar a experiencia do chat e da sanidade antes de integrar qualquer IA real:
+
+1. Garantir que a rolagem interna do chat esteja confortavel.
+2. Melhorar a exibicao da perda de sanidade por interacao.
+3. Trocar o texto "Bem-estar cognitivo" ou manter como nome discreto para sanidade, dependendo do tom desejado.
+4. Criar pequenas variacoes visuais por estado de sanidade sem deixar a interface caricata.
+5. Depois disso, pensar em memoria local simples ou respostas simuladas mais inteligentes.
