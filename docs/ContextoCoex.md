@@ -45,7 +45,7 @@ Usuario -> Interface -> Motor IA -> Memoria -> SQLite -> Resposta
 
 Fases sugeridas:
 
-1. Prototipo visual em HTML/CSS.
+1. Prototipo visual em HTML/CSS/JavaScript.
 2. Chat funcional com respostas falsas.
 3. Sistema de sanidade interativo.
 4. Persistencia local simples.
@@ -89,3 +89,15 @@ Refinar a experiencia do chat e da sanidade antes de integrar qualquer IA real:
 3. Trocar o texto "Bem-estar cognitivo" ou manter como nome discreto para sanidade, dependendo do tom desejado.
 4. Criar pequenas variacoes visuais por estado de sanidade sem deixar a interface caricata.
 5. Depois disso, pensar em memoria local simples ou respostas simuladas mais inteligentes.
+
+## Progresso registrado em 22-06-2026
+
+A interação de chat e usuário memso que falsa esta ocorrendo perfeitamente, gerando respostas genéricas prontas mas se corelacionando com o nivel de sanidade e seus parâmetros, ou seja , quanto menor a sanidade respostas mais "bizarras" são dadas 
+
+Criação de interações diferentes dependendo de palavras chaves com as intidades, a primeira utilizada foi nyarlathotep, foram atribuidos dialogos ocultos caso a pessoa tenha conhecimento sobre a entidade assim fazendo com que o chat interaja de forma diferente, junto com isso foram atribuidos caracteristicas imutaveis a personalidade da entidade.
+
+Realizada atribuições diferentes para os botões de indice na side bar do site. As atribuições até o momento foram:
+- Consulta ao Oráculo	(Conversar atraves de Chat)
+- Arquivos Raros	(Aprender através de Wiki )
+- Diário	(Registrar através de Bloco de notas)
+- Casos Abertos	(Progredir através de quests estipuladas ou investigações em aberto)
