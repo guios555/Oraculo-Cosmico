@@ -101,3 +101,9 @@ Realizada atribuições diferentes para os botões de indice na side bar do site
 - Arquivos Raros	(Aprender através de Wiki )
 - Diário	(Registrar através de Bloco de notas)
 - Casos Abertos	(Progredir através de quests estipuladas ou investigações em aberto)
+
+Estrutura pretendida para a criação da wiki 
+SQLite = índice e busca
+Markdown = conteúdo dos artigos
+Node.js = leitura dos arquivos
+HTML/CSS = exibição
