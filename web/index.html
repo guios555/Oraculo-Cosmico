@@ -52,8 +52,8 @@
             <aside class="sidebar">
                 <p class="section-label">Índice</p>
 
-                <button class="sidebar-item active">Consulta do Oráculo</button>
-                <button class="sidebar-item">Arquivos vazados</button>
+                <button id="consulta-oraculo" class="sidebar-item active">Consulta do Oráculo</button>
+                <button id="arquivos-vazados" class="sidebar-item"> Arquivos vazados </button>
                 <button class="sidebar-item">Notas do pesquisador</button>
                 <button class="sidebar-item">Linha de investigação</button>
 
@@ -65,53 +65,63 @@
                         <span></span>
                     </div>
                 </div>
-            </aside>
+               </aside>
 
-            <section class="chat-panel">
+             <section class="chat-panel">
 
-                <div class="chat-header">
-                    <div>
-                        <h3>Sala de consulta</h3>
-                        <p>Sessão privada - entidade comunicadora não revelada</p>
-                    </div>
+             <div id="main-content">
+             <div class="chat-header">
 
-                    <div class="status-pill">
-                        <span></span>
-                        estável
-                    </div>
-                </div>
+             <div>
+                <h3>Sala de consulta</h3>
+                <p>Sessão privada - entidade comunicadora não revelada</p>
+            </div>
 
-                <div id="chat-box" class="chat-box">
+            <div class="status-pill">
+                <span></span>
+                estável
+            </div>
 
-                    <div class="message oracle">
-                        <strong>Oráculo</strong>
-                        <p>
-                            Bem-vindo, pesquisador. Qual fragmento do acervo deseja examinar?
-                        </p>
-                    </div>
+          </div>
 
-                    <div class="message user">
-                        <strong>Pesquisador</strong>
-                        <p>
-                            Quero entender os registros sobre sonhos recorrentes em Arkham.
-                        </p>
-                    </div>
+            <div id="chat-box" class="chat-box">
 
-                    <div class="message oracle">
-                        <strong>Oráculo</strong>
-                        <p>
-                            Há referências dispersas. Recomendo começar pelos diários da ala norte.
-                        </p>
-                    </div>
+            <div class="message oracle">
+                <strong>Oráculo</strong>
+                <p>
+                    Bem-vindo, pesquisador. Qual fragmento do acervo deseja examinar?
+                </p>
+            </div>
 
-                </div>
+            <div class="message user">
+                <strong>Pesquisador</strong>
+                <p>
+                    Quero entender os registros sobre sonhos recorrentes em Arkham.
+                </p>
+            </div>
 
-                <div class="chat-input">
-                    <input type="text" placeholder="Digite sua pergunta para o acervo...">
-                    <button>Invocar</button>
-                </div>
+            <div class="message oracle">
+                <strong>Oráculo</strong>
+                <p>
+                    Há referências dispersas. Recomendo começar pelos diários da ala norte.
+                </p>
+            </div>
 
-            </section>
+        </div>
+
+        <div class="chat-input">
+            <input
+                type="text"
+                placeholder="Digite sua pergunta para o acervo..."
+            >
+            <button>
+                Invocar
+            </button>
+        </div>
+
+    </div>
+
+     </section>
 
         </main>
 

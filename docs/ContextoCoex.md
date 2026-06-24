@@ -98,7 +98,7 @@ Criação de interações diferentes dependendo de palavras chaves com as intida
 
 Realizada atribuições diferentes para os botões de indice na side bar do site. As atribuições até o momento foram:
 - Consulta ao Oráculo	(Conversar atraves de Chat)
-- Arquivos Raros	(Aprender através de Wiki )
+- Arquivos Vazados	(Aprender através de Wiki )
 - Diário	(Registrar através de Bloco de notas)
 - Casos Abertos	(Progredir através de quests estipuladas ou investigações em aberto)
 

@@ -39,3 +39,21 @@ Status da Investigação
 Restrita.
 
 Nível de Risco: Elevado.
+
+Conclusão do Investigador
+
+A Cidade Sem Nome representa uma anomalia histórica sem precedentes.
+As estruturas encontradas aparentam possuir idade superior às primeiras civilizações humanas conhecidas.
+Tal constatação deveria ser impossível.
+As inscrições recuperadas não apresentam qualquer relação com idiomas catalogados.
+Mais preocupante ainda é o padrão observado entre os membros da equipe.
+Após longos períodos de exploração subterrânea, diversos pesquisadores relataram a mesma sensação:
+A impressão persistente de que as ruínas não estavam abandonadas.
+Nenhuma evidência física sustenta tal afirmação.
+Ainda assim, o relato foi repetido por indivíduos de diferentes nacionalidades e especialidades.
+Encerro este relatório convencido de que ainda compreendemos apenas uma pequena fração daquilo que existe sob as areias da região.
+E suspeito que seja melhor assim.
+Assinado:
+Dr. Jonathan Albrecht
+Departamento de Arqueologia Comparada
+Universidade Miskatonic

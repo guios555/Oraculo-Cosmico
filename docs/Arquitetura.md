@@ -9,9 +9,9 @@ Criar uma IA conversacional temática inspirada nos Mitos de Cthulhu que varia a
 - Banco SQLite
 - Sistema de sanidade
 - Motor de IA
-- Arquivos Raros (Wiki)
+- Arquivos vazados (Wiki)
 - Diário do Pesquisador (Registro)
-- Casos Abertos (Quests Interativas para progressão)
+- Linha de Investigação (Quests Interativas para progressão)
 
 ## Fluxo
 

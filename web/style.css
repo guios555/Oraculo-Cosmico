@@ -234,6 +234,13 @@ a {
     text-align: left;
 }
 
+.sidebar-item:hover {
+    background: var(--deep);
+    color: #eff9ef;
+
+    transition: 0.3s;
+}
+
 .sidebar-item.active,
 .message.user {
     background: var(--deep);

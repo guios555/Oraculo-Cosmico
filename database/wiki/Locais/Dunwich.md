@@ -32,3 +32,21 @@ Status da Investigação
 Ativa.
 
 Nível de Risco: Alto.
+
+Conclusão do Investigador
+
+Após quatro meses de observação, não encontrei evidências concretas que sustentem a maioria das histórias relatadas pelos moradores.
+Entretanto, considero improvável que tantas testemunhas independentes tenham produzido descrições semelhantes sem qualquer contato prévio.
+Os habitantes de Dunwich parecem conviver com fenômenos que consideram normais, mas que seriam considerados alarmantes em qualquer outra comunidade.
+Durante minha última noite na região, permaneci próximo às colinas ao norte da cidade.
+Às 02:17 da madrugada, todos os sons da floresta cessaram simultaneamente.
+Nenhum vento.
+Nenhum inseto.
+Nenhum animal.
+O silêncio durou aproximadamente três minutos.
+Não encontrei explicação satisfatória para o ocorrido.
+Recomendo que futuras expedições mantenham monitoramento contínuo das áreas rurais mais afastadas.
+Assinado:
+Dr. Harold Whitmore
+Departamento de Antropologia
+Universidade Miskatonic

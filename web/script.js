@@ -1,3 +1,6 @@
+const contentPanel = document.querySelector("#content-panel");
+const mainContent = document.querySelector("#main-content");
+const telaConsulta = mainContent.innerHTML;
 const chatBox = document.querySelector("#chat-box");
 const input = document.querySelector(".chat-input input");
 const button = document.querySelector(".chat-input button");
@@ -6,6 +9,9 @@ const sanityText = document.querySelector(".sanity-card strong");
 const sanityBar = document.querySelector(".sanity-bar span");
 const statusText = document.querySelector(".status-pill");
 const hero = document.querySelector(".hero");
+
+const btnArquivos = document.querySelector("#arquivos-vazados");
+const btnConsulta = document.querySelector("#consulta-oraculo");
 
 let sanity = 100;
 
@@ -43,6 +49,18 @@ const oracleResponses = {
 
 button.addEventListener("click", sendMessage);
 
+btnArquivos.addEventListener("click", () => {
+
+    mostrarArquivosVazados();
+
+});
+
+btnConsulta.addEventListener("click", () => {
+
+    mostrarConsulta();
+
+});
+
 input.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         sendMessage();
@@ -56,7 +74,7 @@ function sendMessage() {
         return;
     }
 
-    addMessage("user", "Guilherme", userText);
+    addMessage("user", "Pesquisador", userText);
 
     input.value = "";
 
@@ -150,4 +168,29 @@ function addMessage(type, author, text) {
 
     chatBox.appendChild(message);
     chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function mostrarConsulta() {
+    mainContent.innerHTML = telaConsulta;
+}
+
+function mostrarArquivosVazados() {
+    mainContent.innerHTML = `
+        <h2>ARQUIVOS VAZADOS</h2>
+
+        <h3>Entidades</h3>
+
+        <ul>
+            <li>Nyarlathotep</li>
+            <li>Hastur</li>
+            <li>Azathoth</li>
+        </ul>
+
+        <h3>Locais</h3>
+
+        <ul>
+            <li>Arkham</li>
+            <li>Innsmouth</li>
+        </ul>
+    `;
 }
