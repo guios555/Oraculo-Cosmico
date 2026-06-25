@@ -29,13 +29,16 @@ Ideia central: uma IA particular conversacional com tema de horror cosmico e Mit
 
 Referencias desejadas:
 
+Em caso de alteração de sanidade 
 - grimorio digital proibido;
 - terminal ocultista;
 - fundo escuro;
 - verde esmeralda;
+Em caso de sanidade padrao
 - simbolos arcanos discretos;
 - entidade observadora, como Nyarlathotep;
-- atmosfera de biblioteca de Arkham.
+- atmosfera de faculdade de Arkham.
+- cores verde e dourada
 
 ## Arquitetura futura
 
@@ -56,10 +59,9 @@ Fases sugeridas:
 
 ## Observacoes tecnicas atuais
 
-- Os arquivos atuais apresentam caracteres quebrados, provavelmente por problema de encoding.
-- A pasta `web` ja contem `index.html`, `style.css` e `script.js`.
-- A interface atual e uma boa base inicial, mas ainda nao tem interatividade real.
-- O CSS atual usa `height: 100px` no `body`, o que deve ser corrigido para ocupar a tela inteira.
+- A fase atual temos um site parcialmente interativo com teste de navegação em duas abas Consulta/Arquivos.
+- Temos mais personalidade com fades na side bar 
+- Iniciando a inserção de arquivos .md na aba Arquivos Vazados. E criação de toda estrutura de wiki.
 
 ## Progresso registrado em 2026-06-05
 
@@ -107,3 +109,30 @@ SQLite = índice e busca
 Markdown = conteúdo dos artigos
 Node.js = leitura dos arquivos
 HTML/CSS = exibição
+
+## Progresso registrado em 25-06-2026
+
+Interação da side bar entre consulta e arquivos vazados esta ok, o chat consegue guardar as conversas mesmo quando realiza a troca de abas isso acontece pq o html esta carregando todas as logicas no backend e apenas carrega o visual durante o click para navegação das abas.
+Junto com isso sigo na implementação da wiki interativa na aba arquivos vazados atraves de consulta de arquivos salvos em .md na pasta wiki
+O chat me recomendou a seguinte interatividade para a ligação com a lore tematica
+
+Fase 1
+Categorias
+Arquivos .md
+Carregamento manual
+
+Fase 2
+Busca por palavras-chave
+Filtros
+
+Fase 3
+Arquivos bloqueados
+Sistema de sanidade
+
+Fase 4
+Nyarlathotep referenciando documentos da wiki durante conversas
+Um exemplo seria o pesquisador perguntar.
+"Quem é Hastur?"
+E a IA responder:
+"Consulte o Arquivo M-UA-041. Seu nível de autorização é suficiente."
+A tendencia seria conforme a sanidade do pesquisador ou como ele conversar com o chat ele teria pistas sobre os arquivos ocultos e vazados.

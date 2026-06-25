@@ -1,6 +1,6 @@
-const contentPanel = document.querySelector("#content-panel");
-const mainContent = document.querySelector("#main-content");
-const telaConsulta = mainContent.innerHTML;
+const telaConsulta = document.querySelector("#tela-consulta");
+const telaArquivos = document.querySelector("#tela-arquivos");
+
 const chatBox = document.querySelector("#chat-box");
 const input = document.querySelector(".chat-input input");
 const button = document.querySelector(".chat-input button");
@@ -171,26 +171,15 @@ function addMessage(type, author, text) {
 }
 
 function mostrarConsulta() {
-    mainContent.innerHTML = telaConsulta;
+    telaConsulta.classList.remove("hidden");
+    telaArquivos.classList.add("hidden");
+    btnConsulta.classList.add("active");
+    btnArquivos.classList.remove("active");
 }
 
 function mostrarArquivosVazados() {
-    mainContent.innerHTML = `
-        <h2>ARQUIVOS VAZADOS</h2>
-
-        <h3>Entidades</h3>
-
-        <ul>
-            <li>Nyarlathotep</li>
-            <li>Hastur</li>
-            <li>Azathoth</li>
-        </ul>
-
-        <h3>Locais</h3>
-
-        <ul>
-            <li>Arkham</li>
-            <li>Innsmouth</li>
-        </ul>
-    `;
+    telaConsulta.classList.add("hidden");
+    telaArquivos.classList.remove("hidden");
+    btnConsulta.classList.remove("active");
+    btnArquivos.classList.add("active");
 }

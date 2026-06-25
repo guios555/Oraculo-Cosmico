@@ -1,4 +1,6 @@
-const arquivosCriaturas = [
+const wikiData = {
+
+    criaturas: [
     {
         id: "nyarlathotep",
         titulo: "Nyarlathotep",
@@ -34,9 +36,9 @@ const arquivosCriaturas = [
         arquivo: "wiki/Yog-Sothoth.md"
     }
 
-];
+    ],
 
-const arquivosLocais = [
+    locais: [
     {
         id: "innsmouth",
         titulo: "Innsmouth",
@@ -71,4 +73,7 @@ const arquivosLocais = [
         categoria: "Local",
         arquivo: "wiki/Dunwich.md"
     },
-];
+    
+    ]
+
+}
